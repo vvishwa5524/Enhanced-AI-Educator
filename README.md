@@ -1,24 +1,30 @@
 # Enhanced AI Educator
 
-Welcome to **Enhanced AI Educator** — an advanced AI-powered learning platform designed to deliver tailored educational experiences. The project leverages AI, prompt engineering, and user-driven response mechanisms to create interactive learning through text, voice, and image inputs.
+**Enhanced AI Educator** is an advanced AI-powered educational platform that provides personalized learning experiences through text, voice, and image inputs. This project integrates AI and prompt engineering to create interactive and adaptable learning solutions.
 
 ## Key Features
 
-- **User-Driven Learning**: Delivers personalized results based on the user's skill level and learning pace.
-- **Multi-Input Formats**: Supports text, voice, and image inputs, making the learning experience more dynamic.
-- **Prompt Engineering**: Refined prompt strategies to generate more accurate, contextual, and effective learning materials.
-- **Real-Time Feedback**: Provides immediate, AI-driven feedback to enhance learning efficiency.
+- **User-Driven Learning**: Tailors responses and content based on user skill level and preferences.
+- **Multi-Input Formats**: Supports interactions via text, voice, and image inputs.
+- **Advanced Prompt Engineering**: Refines prompts to enhance response accuracy and relevance.
+- **Real-Time Feedback**: Offers immediate feedback to optimize learning effectiveness.
 
 ## Project Structure
 
-- **/src**: Core AI algorithms, including prompt engineering and user interface logic.
-- **/models**: Pre-trained models and custom fine-tuned models used for generating responses.
-- **/data**: Sample input data, datasets for model training, and evaluation.
-- **/docs**: Project documentation, technical setup, and user guides.
-
-## Setup and Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/vvishwa5524/Enhanced-AI-Educator.git
+```plaintext
+Enhanced-AI-Educator/
+├── /src/
+│   ├── index.php
+│   ├── page.php
+│   ├── multimodalinput2.php
+│   └── multimodalresponse2.php
+├── /css/
+│   ├── style.css
+│   └── multimodel.css
+├── /js/
+│   └── main.js
+├── /vendor/
+│   └── autoload.php
+├── /images/
+│   └── (image files used in the project)
+└── README.md
